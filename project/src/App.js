@@ -9,7 +9,9 @@ import './App.css';
 // import UseState from './Hooks/UseState';
 // import UseEffect from './Hooks/UseEffect';
 // import UseReducer from './Hooks/UseReducer';
-import KeepApp from './Keep_APP/KeepApp';
+// import KeepApp from './Keep_APP/KeepApp';
+import Navbar from './Navbar/Navbar';
+
 
 
 
@@ -39,7 +41,8 @@ const App = () => {
       {/* <UseState /> */}
       {/* <UseEffect /> */}
       {/* <UseReducer /> */}
-      <KeepApp/>
+      {/* <KeepApp/> */}
+      <Navbar />
 
     </>
 

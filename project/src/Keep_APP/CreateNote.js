@@ -32,7 +32,7 @@ const CreateNote = (props) => {
         e.preventDefault();
         props.passNote(note);
         setNote({
-            title: "",
+            title: " ",
             content: "",
         });
     };

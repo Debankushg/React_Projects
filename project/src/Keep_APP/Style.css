@@ -23,7 +23,7 @@
 
 form{
     min-height: 50px;
-    color: #ecf0f1;
+    color: #84d2e6;
     padding: 15px 10px 5px 10px;
     box-shadow:  3px 5px 15px -5px rgba(0, 0, 0, 0.5);
     border-radius: 10px;
@@ -42,7 +42,7 @@ input{
 }
 textarea {
     width: 100%;
-    background: transparent;
+    background:transparent;
     line-height: 30px;
     border: none;
     outline: none;
