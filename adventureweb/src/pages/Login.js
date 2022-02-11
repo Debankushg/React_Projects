@@ -3,9 +3,9 @@ import useForm from './useform';
 import validate from './validateInfo';
 import './Login.css';
 
-const Login = ({submitForm}) => {
+const Login = ({submitForms}) => {
 
-    const {handleChange , values,handleSubmit ,errors} = useForm (submitForm ,validate);
+    const {handleChange , values,handleSubmit ,errors} = useForm (submitForms ,validate);
   return (
       <>
           <div className="form-contents-right">

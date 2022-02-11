@@ -11,8 +11,10 @@ function Cards() {
       <div className="card__container">
           <div className="cards__wrapper">
               <ul className="cards__items">
-                  <Carditems src='../images/img-9.jpg' text='Explore the hidden waterfall deep inside the Amazon jungle'
-                  label='Adventure' path= '/services' />
+                <Carditems src='../images/img-9.jpg' 
+                text='Explore the hidden waterfall deep inside the Amazon jungle'
+                label='Adventure' 
+                path= '/services' />
 
                 <Carditems
               src='images/img-2.jpg'

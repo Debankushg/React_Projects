@@ -3,7 +3,6 @@ import FormSignup from './FormSignup';
 import FormSuccess from  './FormSuccess';
 import './signup.css'
 
-
 function Signup () {
   const [isSubmitted, setIsSubmitted] = useState(false)
 
@@ -17,11 +16,7 @@ function Signup () {
         <div className='form-content-left'>
           <img className='form-img' src='../images/img-4.svg' alt='spaceship' />
         </div>
-        {!isSubmitted ? (
-          <FormSignup submitForm={submitForm} />
-        ) : (
-          <FormSuccess />
-        )}
+        {!isSubmitted ? (<FormSignup submitForm={submitForm} />) : (<FormSuccess />)}
       </div>
       </>
   );

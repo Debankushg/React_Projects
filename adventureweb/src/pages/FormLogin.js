@@ -6,7 +6,7 @@ import './Login.css'
 const FormLogin = () => {
     const [isSubmitted, setIsSubmitted] = useState(false)
 
-  function submitForm(){
+  function submitForms(){
     setIsSubmitted(true);
   }
   return (
@@ -16,11 +16,7 @@ const FormLogin = () => {
         <div className='form-contents-left'>
           <img className='form-img' src='../images/img-1.svg' alt='spaceship' />
         </div>
-        {!isSubmitted ? (
-          <Login submitForm={submitForm} />
-        ) : (
-          <FormSuccess />
-        )}
+        {!isSubmitted ? (<Login submitForm={submitForms} />) : ( <FormSuccess />)}
         </div>
       </>
   );
