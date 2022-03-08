@@ -1,0 +1,37 @@
+[
+    {
+        "name": "La India",
+        "lat": 22.9938623,
+        "lon": -102.5517844,
+        "country": "MX",
+        "state": "Zacatecas"
+    },
+    {
+        "name": "La India",
+        "lat": 6.1953659,
+        "lon": -74.0872455,
+        "country": "CO",
+        "state": "Santander"
+    },
+    {
+        "name": "La India",
+        "lat": 10.0788118,
+        "lon": -68.1517339,
+        "country": "VE",
+        "state": "Carabobo State"
+    },
+    {
+        "name": "India",
+        "lat": 2.183333,
+        "lon": 33.683333,
+        "country": "UG",
+        "state": "Amuria"
+    },
+    {
+        "name": "La India",
+        "lat": -23.1611058,
+        "lon": -58.7675536,
+        "country": "PY",
+        "state": "Presidente Hayes"
+    }
+]
